@@ -6,7 +6,27 @@ body{
     margin: 0;
     height: 100vh;
 }
-.caja-calculadora{
+#calculator{
     background-color: aqua;
     max-width: 360px;
+    border-radius: 10px;
+    padding: 20px;
+}
+#display{
+    height: 56px;
+    width: 100%;
+    text-align: right;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    color:crimson;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.443);
+    box-sizing: border-box;
+}
+.operator{
+    color: chartreuse;
+}
+.equal{
+    
 }
