@@ -1,11 +1,12 @@
-*{
+body{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.hola{
-    width:100vh ;
     height: 100vh;
-    background-color: blue;
+}
+.caja-calculadora{
+    background-color: aqua;
+    max-width: 360px;
 }
