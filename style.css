@@ -5,6 +5,7 @@ body{
     align-items: center;
     margin: 0;
     height: 100vh;
+    background-color: coral;
 }
 #calculator{
     background-color: aqua;
@@ -21,12 +22,21 @@ body{
     border-radius: 5px;
     color:crimson;
     border: none;
-    background-color: rgba(0, 0, 0, 0.443);
+    background-color: rgba(13, 27, 42, 0.555);
     box-sizing: border-box;
 }
 button{
     width: calc(25% - 10px);
     height: 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    float: left;
+    color: bisque;
+    background-color: rgba( 13, 27, 42);
+    -webkit-box-shadow:-1px 1px 30px -5px  rgba(0, 0, 0, 0.2) ;
+    -moz-box-shadow:-1px 1px 30px -5px  rgba(0, 0, 0, 0.2);
+    box-shadow: -1px 1px 30px -5px  rgba(0, 0, 0, 0.2);
 }
 .operator{
     color: chartreuse;
